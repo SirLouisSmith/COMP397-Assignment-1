@@ -5,9 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Assignment 1</title>
     <!--CSS Section-->
+    <link href="css/reset.css" rel="stylesheet" />
     <link href="css/game.css" rel="stylesheet" />
 </head>
-<body>
+<body onload="main();">
+    <div id="impress">
+        <div id="1" class="step slide">
+            <!--Menu Slide-->
+            <div class="slide-text">
+                <h1>A Fool's Treasure</h1>
+                <p>Your goal in this epic quest is to get the escape the dungeon alive. Think you are up to the task?</p>
+                <p align="center"><a href="#2">Start Your Adventure</a></p>
+            </div>
+        </div>
+        <!--First Slide-->
+        <div id="2" class="step slide" data-y="1000">
+            <div class="slide-text">
+                <p>You have managed to escape from your jail cell. You start going down the hallway and come across a split into two paths.</p>
+                <p><a href="#1">Start Your Adventure</a></p>
+            </div>
+        </div>
+    </div>
 
     <!--JavaScript Section-->
     <script src="Scripts/lib/impress.js"></script>

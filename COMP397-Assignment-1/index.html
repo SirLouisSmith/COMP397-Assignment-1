@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿<!--Author: Louis Smith-->
+<!--Last Modified By: Louis Smith-->
+<!--Date Modified: 27/01/2015-->
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -18,11 +22,153 @@
                 <p align="center"><a href="#2">Start Your Adventure</a></p>
             </div>
         </div>
-        <!--First Slide-->
+
+        <!--intro Slide-->
         <div id="2" class="step slide" data-y="1000">
             <div class="slide-text">
-                <p>You have managed to escape from your jail cell. You start going down the hallway and come across a split into two paths.</p>
-                <p><a href="#1">Start Your Adventure</a></p>
+                <h1>Introduction</h1>
+                <p>You're a thief with a lust for gold.</p>
+                <p><a href="#3">Escape Prison</a></p>
+            </div>
+        </div>
+
+        <!--Slide 1-->
+        <div id="3" class="step slide" data-y="2000">
+            <div class="slide-text">
+                <p>You have managed to escape from your jail cell. You start going down the hallway and come across a split into two corridors. The left corridor has a light source and no guards in sight. The right corridor is dark, and you hear a rumbling sound coming from it.</p>
+                <p><a href="#4">Left Corridor</a></p>
+                <p><a href="#5">Right Corridor</a></p>
+            </div>
+        </div>
+        <!--Slide 2: In the left corridor-->
+        <div id="4" class="step slide" data-x="-800" data-y="3000">
+            <div class="slide-text">
+                <p>In this corridor, you see a hole, which might be a way out of the dungeon, the entrance, which is sealed of by a gate, and a room with something sparkly inside.</p>
+                <p><a href="#6">Go in the hole</a></p>
+                <p><a href="#7">Go to the gate</a></p>
+                <p><a href="#8">Investigate The Room</a></p>
+            </div>
+        </div>
+        <!--Slide 3: In the right corridor-->
+        <div id="5" class="step slide" data-x="800" data-y="3000">
+            <div class="slide-text">
+                <p></p>
+                <p><a href="#9">Walk Against the Left Wall</a></p>
+                <p><a href="#10">Use Night Vision Potion</a></p>
+                <p><a href="#11">Walk Towards the Snoring</a></p>
+            </div>
+        </div>
+        <!--Slide 2.1: Go in the hole-->
+        <div id="6" class="step slide" data-x="-2300" data-y="2000">
+            <div class="slide-text">
+                <p>You drop down the hole. It turns out to lead to the gaurds room. They stare at you for a bit, then surround you and place you in a higher security cell.</p>
+                <p><a href="#1">MENU</a></p>
+            </div>
+        </div>
+        <!--Slide 2.2: Go to the gate-->
+        <div id="7" class="step slide" data-x="-2300" data-y="3000">
+            <div class="slide-text">
+                <p>You walk up to the gate, where you notice that it is locked. You can:</p>
+                <p><a href="#12">Try To Bust the Gate Open</a></p>
+                <p><a href="#13">Pick the Lock</a></p>
+                <p><a href="#14">Use the Key You Took From the Guard</a></p>
+            </div>
+        </div>
+        <!--Slide 2.3: Investigate the room-->
+        <div id="8" class="step slide" data-x="-2300" data-y="4000">
+            <div class="slide-text">
+                <p>You enter the room, where you notice 3 things of interest. A locked chest that makes your curiosity go up, some kind of magical potion, and an open chest filled with enough gold to rule a kingdom.</p>
+                <p><a href="#15">Lock Chest</a></p>
+                <p><a href="#16">Potion</a></p>
+                <p><a href="#17">Chest With Gold</a></p>
+            </div>
+        </div>
+        <!--Slide 3.1: Walk Against Left Wall-->
+        <div id="9" class="step slide" data-x="2300" data-y="4000">
+            <div class="slide-text">
+                <p>You slowly make your way against the wall, when you suddenly feel the ground under your foot lower with a click sound. Arrows start firing onto you from the celling. You died.</p>
+                <p>GAME OVER</p>
+                <p><a href="#1">MENU</a></p>
+            </div>
+        </div>
+        <!--Slide 3.2: Use Night Vision Potion-->
+        <div id="10" class="step slide" data-x="2300" data-y="3000">
+            <div class="slide-text">
+                <p>You drink the night vision potion and you can now see everything down the previously dark corridor. You see the guard on the right sleeping on the job. You notice a set of keys attatched to his belt along with a bag with some coin.</p>
+                <p><a href="#18">Take the Keys</a></p>
+                <p><a href="#19">Take the Coin Bag</a></p>
+            </div>
+        </div>
+        <!--Slide 3.3: Walk Towards the Snoring-->
+        <div id="11" class="step slide" data-x="2300" data-y="2000">
+            <div class="slide-text">
+                <p>You walk towards the snoring, thinking that it's coming from one of the dungeon cells. Suddenly, you trip over someone and make a lot of sound. It turns out that the guard was sleeping on the job. He jumps up in shock, quickly unsheathing his sword and slices you in half.</p>
+                <p>GAME OVER</p>
+                <p><a href="#1">MENU</a></p>
+            </div>
+        </div>
+        <!--Slide 2.2.1: Try To Bust the Gate Open-->
+        <div id="12" class="step slide" data-x="-3800" data-y="4000">
+            <div class="slide-text">
+                <p>You kick the the gate as hard as you possibly can, causing it to vibrate. You notice some rubble starting to fall on your head. You look up to see a brick above you wiggling, falling towards you, and hits your head. You die.</p>
+                <p>GAME OVER</p>
+                <p><a href="#1">MENU</a></p>
+            </div>
+        </div>
+        <!--Slide 2.2.2: Pick the Lock-->
+        <div id="13" class="step slide" data-x="-3800" data-y="3000">
+            <div class="slide-text">
+                <p>You start to pick the lock with a couple of needles you had hidden somewhere. You nearly get the door unlocked when a guard doing his patrol notices you and then captures you.</p>
+                <p>GAME OVER</p>
+                <p><a href="#1">MENU</a></p>
+            </div>
+        </div>
+        <!--Slide 2.2.3: Use the Key You Took From the Guard-->
+        <div id="14" class="step slide" data-x="-3800" data-y="2000">
+            <div class="slide-text">
+                <p>You use the key you stole from the sleeping guard and open the gate. You have escaped the dungeon and now enjoying your new freedom.</p>
+                <p>CONGRATULATIONS!!! YOU ESCAPED!!</p>
+                <p><a href="#1">MENU</a></p>
+            </div>
+        </div>
+        <!--Slide 2.3.1: Lock Chest-->
+        <div id="15" class="step slide" data-x="-3800" data-y="5000">
+            <div class="slide-text">
+                <p>Mimic</p>
+                <p>GAME OVER</p>
+                <p><a href="#1">MENU</a></p>
+            </div>
+        </div>
+        <!--Slide 2.3.2: Potion-->
+        <div id="16" class="step slide" data-x="-2300" data-y="5000">
+            <div class="slide-text">
+                <p>Potion</p>
+                <p>Potion Added to Inventory</p>
+                <p><a href="#3">Back to Corridor Split</a></p>
+            </div>
+        </div>
+        <!--Slide 2.3.3: Chest With Gold-->
+        <div id="17" class="step slide" data-x="-800" data-y="5000">
+            <div class="slide-text">
+                <p>Gold</p>
+                <p>GAME OVER</p>
+                <p><a href="#1">MENU</a></p>
+            </div>
+        </div>
+        <!--Slide 3.2.1: Take the Keys-->
+        <div id="18" class="step slide" data-x="3800" data-y="3000">
+            <div class="slide-text">
+                <p>Keys</p>
+                <p>Keys Added to Inventory</p>
+                <p><a href="#3">Go Back to Spliting Corridor</a></p>
+            </div>
+        </div>
+        <!--Slide 3.2.2: Take the Coin-->
+        <div id="19" class="step slide" data-x="3800" data-y="4000">
+            <div class="slide-text">
+                <p>Coins</p>
+                <p>GAME OVER</p>
+                <p><a href="#1">MENU</a></p>
             </div>
         </div>
     </div>

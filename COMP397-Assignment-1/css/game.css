@@ -8,7 +8,7 @@
     background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:         radial-gradient(rgb(61, 40, 18), rgb(82, 55, 26));
 }
 .step {
     position: relative;
@@ -46,13 +46,13 @@
     height: 700px;
     padding: 40px 60px;
 
-    background-color: white;
+    background: url(/assets/images/brick_wall.png);
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
 
-    color: rgb(102, 102, 102);
-    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    color: rgb(180, 180, 180);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 1);
 
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 30px;
@@ -70,4 +70,18 @@
 
 .slide q strong {
     white-space: nowrap;
+}
+
+.slide a, .slide a:visited {
+    color: #38230C;
+    text-decoration: none;
+    text-shadow: none;
+    background-color: #abc;
+    padding: 1px;
+    border-radius: 5px;
+    border: 4px solid #000000;
+}
+
+.slide a:hover, .slide a:active {
+    background-color: #cde;
 }

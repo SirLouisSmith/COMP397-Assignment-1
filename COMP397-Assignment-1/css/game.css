@@ -1,4 +1,11 @@
-﻿body {
+﻿/* 
+    Source File Name: game.css
+    Author: Louis Smith
+    Last Modified By: Louis Smith
+    Date Modified: 29/01/2015
+    Description: This is the stylesheet that makes the game look pleasing to the eyes
+*/
+body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
 
@@ -46,7 +53,7 @@
     height: 700px;
     padding: 40px 60px;
 
-    background: url(/assets/images/brick_wall.png);
+    background: url(/assets/images/brick_wall.png); /*The background image to all the slides*/
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);

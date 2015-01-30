@@ -2,8 +2,7 @@
 <!--Author: Louis Smith-->
 <!--Last Modified By: Louis Smith-->
 <!--Date Modified: 29/01/2015-->
-<!--Description: This is the initial screen where the player can start his adventure through "A Thief's Escape"
-    it's change to other pages depending on which items you gather along the way.-->
+<!--Description: This is the final screen where the player can can end his adventure through "A Thief's Escape"-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +30,7 @@
         <div id="intro" class="step slide" data-y="1000">
             <div class="slide-text">
                 <h1>Introduction</h1>
-                <p>You're a thief with a lust for gold. You were down at the local market doing your usual stealing and pickpocketing when, all of a sudden, you get bumbarded by the local guards for being a wanted man. They catch you and throw you in the highest security dungeon in all the kingdom.</p>
+                <p>You're a thief with a lust for gold. You were down at the local market doing your usual stealing and pickpocketing when, all of a sudden, you get bumbarded by the local guards for being a wanted man. They catch me and throw me in the highest security dungeon in all the kingdom.</p>
                 <p>You knew this day would come, so you plan on your great escape from this damp dungeon. You manage to picklock your cell door and start your departure.</p>
                 <hr />
                 <p align="center"><a href="#dungeon">Escape Prison</a></p>
@@ -41,7 +40,7 @@
         <!--Slide 1-->
         <div id="dungeon" class="step slide" data-y="2000">
             <div class="slide-text">
-                <p>You begin to sneak down the corridor, passing cell after cell, with no guards in sight. While you continue your escape, you come across a split in the hallway. The left corridor has a light source with no guards in sight, an ideal path to see where you are going. The right corridor is pitch black where all you can hear is a rumbling sound coming from somewhere beyond the darkness.</p>
+                <p>Back to where you began, you are faced with the two corridors. Which will you choose?</p>
                 <hr />
                 <table witdth="800px" align="center">
                     <tr>
@@ -79,7 +78,7 @@
         <!--Slide 3: In the right corridor-->
         <div id="right" class="step slide" data-x="800" data-y="3000">
             <div class="slide-text">
-                <p>You begin your descent down the right corridor, being as blind as a bat, relying on your other scences to guide you forward. As you go on, you relise that the rumbling sound is in fact the sound of someone snoring to the right. Could it be another captive? Maybe one of the guards?</p>
+                <p>You begin your descent down the right corridor, that is still lit thanks to the night vision potion. Walk on the left side of the corridor, or check what the guard has left?</p>
                 <hr />
                 <table width="800px" align="center">
                     <tr>
@@ -87,7 +86,7 @@
                             <p align="center"><a href="#wall">Walk Against the Left Wall</a></p>
                         </td>
                         <td width="400px">
-                            <p align="center"><a href="#snore">Walk Towards the Snoring</a></p>
+                            <p align="center"><a href="#key">Sneak Towards the Guard</a></p>
                         </td>
                     </tr>
                 </table>
@@ -119,6 +118,8 @@
                         </td>
                     </tr>
                 </table>
+                <br />
+                <p align="center"><a href="#win">Use Key You Took From Guard</a></p>
                 <hr />
                 <p align="center"><a href="#left">Back</a></p>
             </div>
@@ -220,8 +221,7 @@
         <!--Slide 2.3.2: Potion-->
         <div id="potion" class="step slide" data-x="-2300" data-y="5000">
             <div class="slide-text">
-                <p>You grab the potion and begin to read to label. It turns out to be a Night Vision potion, giving you the temperary power to see in the dark. This could turn out to be very usefull. Now do you go back to the corridor, or check one of these chests?</p>
-                <p>Potion Added to Inventory</p>
+                <p>You already got the potion from this room. Now do you go back to the corridor, or check one of these chests?</p>
                 <hr />
                 <table width="800px">
                     <tr>
@@ -234,7 +234,7 @@
                     </tr>
                 </table>
                 <br />
-                <p align="center"><a href="nextstep.html#/dungeon">Back to Corridor Split</a></p>
+                <p align="center"><a href="#dungeon">Back to Corridor Split</a></p>
             </div>
         </div>
         <!--Slide 2.3.3: Chest With Gold-->
@@ -249,8 +249,7 @@
         <!--Slide 3.2.1: Take the Keys-->
         <div id="key" class="step slide" data-x="3800" data-y="3000">
             <div class="slide-text">
-                <p>You quickly and carefully snatch the keys from the guard, making sure that he doesn't wake up. Now you could still try to get the bag of coins, or just go back to where I started.</p>
-                <p>Keys Added to Inventory</p>
+                <p>You already got the key off of him. Now you could still try to get the bag of coins, or just go back to where I started.</p>
                 <hr />
                 <table width="800px">
                     <tr>

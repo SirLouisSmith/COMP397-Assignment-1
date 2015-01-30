@@ -66,8 +66,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\images\brick_wall.png" />
+    <Content Include="assets\images\title.png" />
     <Content Include="css\game.css" />
     <Content Include="css\reset.css" />
+    <Content Include="finalstep.html" />
+    <Content Include="nextstep.html" />
     <Content Include="index.html" />
     <Content Include="Scripts\lib\game.js" />
     <Content Include="Scripts\lib\impress.js" />
